@@ -1,0 +1,119 @@
+/* section 1 sec_1 */
+@media screen and (max-width: 620px) {
+    /* header */
+    .box:hover input{
+        width: 250px;
+    }
+    .box input{
+        height: 20px;
+    }
+    /* fin */
+    #sec_1 .container .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #sec_1 .textes{
+        margin-top: -50px;
+        padding-top: 100px;
+    }
+    #sec_1 .text{
+        font-size: 13px;
+        margin-top: -50px;
+    }
+    #sec_1 .btns{
+        margin-top: 20px;
+        position: relative;
+        bottom: 40px;
+    }
+    .img0{
+        margin-bottom: 10px;
+    }
+    .cours{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .borde{
+        margin-top: 15px;
+    }
+    .fluid{
+        margin-left: 0;
+    }
+    .tous{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .partenaires{
+        height: auto;
+    }
+    .parts{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .foot{
+        height: auto;
+    }
+    .fluide{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+
+
+/* tablette  sec_1*/
+
+@media screen and (max-width: 768px) {
+    /* header */
+    .box:hover input{
+        width: 100%;
+    }
+    .box input{
+        height: 20px;
+    }
+    /* fin */
+    .img0{
+        position: relative;
+        top: 10px;
+    }
+    .mere{
+        flex-wrap: nowrap;
+    }
+    /* Nos coach */
+    .borde{
+        margin-top: 5px;
+    }
+    .border p{
+        font-size: 10px;
+    }
+    /* section 6 */
+    .flex{
+        display: flex;
+        flex-direction: column;
+        margin-left: -5px;
+    }
+    .img36{
+        margin-bottom: 40px;
+    }
+    .img37{
+        margin-top: 10px;
+    }
+    .flex2{
+        text-align: center;
+    }
+    /* section 7 */
+    .partenaires{
+        height: auto;
+    }
+    .parts{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}
+

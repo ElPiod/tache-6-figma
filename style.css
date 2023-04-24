@@ -1,0 +1,294 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* header-wrapper*/
+a{
+    text-decoration: none;
+}
+.navbar-nav .nav-link{
+    color: black;
+}
+.navbar-nav .btn{
+    background-color: orange;
+}
+.navbar-toggler .fa{
+    outline: none;
+    color: green;
+}
+.navbar-toggler .fa{
+    border: none;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.header-wrapper .navbar-toggler{
+    text-align: center;
+    border: none;
+}
+.navbar-nav .nav-link:hover{
+    color: green;
+    transition: 0.4s;
+    transform: scale(1.1);
+ 
+}
+.box{
+    height: 30px;
+    display: flex;
+    cursor: pointer;
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 30px;
+    align-items: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+.box:hover input{
+    width: 150px;
+}
+.box input{
+    width: 0;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    transition: 0.8s;
+    background: transparent;
+}
+.box a .fa{
+    color: black;
+}
+.box:hover a .fa{
+    color: green;
+}
+/* section 1 */
+#sec_1{
+    margin-top: 70px;
+}
+#sec_1 .textes{
+    background: linear-gradient(90deg, rgba(13, 66, 61, 0.9) -22.84%, rgba(12, 199, 181, 0.9) 138.88%),
+    linear-gradient(0deg, #E6E6E6, #E6E6E6);
+    height: 400px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 0px gainsboro;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#sec_1 .btns{
+    padding-top: 50px;
+}
+#sec_1 .text{
+   font-size: 18px;
+   font-weight: 300;
+   line-height: 20px;
+}
+#sec_1 .coach{
+    background-image: url(images/Vectors.png);
+    background-repeat: no-repeat;
+    background-position: auto;
+}
+.img0{
+    position: relative;
+    bottom: 70px;
+    background-size: contain;
+}
+
+/* section 2 */
+.formation{
+    background: rgba(0, 150, 136, 1);
+    height: 400px;
+    width: 782px;
+    left: 64px;
+    top: 845px;
+    border-radius: 25px;
+}
+.border{
+    border: 1px solid rgba(0, 150, 136, 1);
+    border-radius: 25px;
+    height: 400px;
+}
+.borde{
+    margin-top: 50px;
+}
+.border p{
+    font-size: 14px;
+}
+.border .btn{
+    display: flex;
+    justify-content: center;
+}
+/* section 3  */
+#sec_3 .prog{
+    background-image: url(images/pro.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border: 1px solid red;
+    height: 245px;
+    width: 313px;
+    border-radius: 25px;
+
+}
+#sec_3 .prog .p{
+    text-align: center;
+    position: relative;
+    top: 130px;
+    color: red;
+}
+#sec_3 .prog1{
+    background-image: url(images/Group.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border: 1px solid rgba(0, 150, 136, 1);
+    height: 245px;
+    width: 313px;
+    border-radius: 25px;
+
+}
+#sec_3 .prog1 .p1{
+    text-align: center;
+    position: relative;
+    top: 130px;
+    color: rgba(0, 150, 136, 1);
+}
+#sec_3 .prog2{
+    background-image: url(images/digital-marketing.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border: 1px solid orange;
+    height: 245px;
+    width: 313px;
+    border-radius: 25px;
+
+}
+#sec_3 .prog2 .p2{
+    text-align: center;
+    position: relative;
+    top: 130px;
+    color: orange;
+}
+#sec_3 .prog3{
+    background-image: url(images/Groupd.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border: 1px solid rgba(0, 150, 136, 1);
+    height: 245px;
+    width: 313px;
+    border-radius: 25px;
+
+}
+#sec_3 .prog3 .p1{
+    text-align: center;
+    position: relative;
+    top: 130px;
+    color: rgba(0, 150, 136, 1);
+}
+/* section 4 */
+.bg{
+    background: rgba(244, 67, 54, 1);
+    width: 100%;
+}
+.sec-5{
+    margin-top: 50px;
+}
+.fluid{
+    margin-left: 50px;
+}
+.carre{
+    border: 1px solid rgba(0, 150, 136, 1);
+    height: 250px;
+    width: 240px;
+    border-radius: 0px;
+    background-image: url(images/coachh.png);
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+}
+.jane{
+    text-align: center;
+    position: relative;
+    top: 210px;
+}
+/* section 6 */
+.bg1{
+    background: rgba(244, 67, 54, 1);
+    margin-top: -50px;
+}
+/* nos partenaire */
+.partenaires{
+    background: rgba(238, 249, 248, 0.9);
+    height: auto;
+}
+.part{
+    background-color: white;
+    height: 170px;
+    width: 170px;
+    border-radius: 20px;
+    box-shadow: 0 4px 0 gainsboro;
+    background-image: url(images/last\ 4.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.part1{
+    background-color: white;
+    height: 170px;
+    width: 170px;
+    border-radius: 20px;
+    box-shadow: 0 4px 0 gainsboro;
+    background-image: url(images/last\ 5.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.part2{
+    background-color: white;
+    height: 170px;
+    width: 170px;
+    border-radius: 20px;
+    box-shadow: 0 4px 0 gainsboro;
+    background-image: url(images/last\ 1.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.part3{
+    background-color: white;
+    height: 170px;
+    width: 170px;
+    border-radius: 20px;
+    box-shadow: 0 4px 0 gainsboro;
+    background-image: url(images/last\ 2.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.part4{
+    background-color: white;
+    height: 170px;
+    width: 170px;
+    border-radius: 20px;
+    box-shadow: 0 4px 0 gainsboro;
+    background-image: url(images/last\ 3.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.part5{
+    background-color: white;
+    height: 170px;
+    width: 170px;
+    border-radius: 20px;
+    box-shadow: 0 4px 0 gainsboro;
+    background-image: url(images/last.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.foot{
+    background: rgba(0, 150, 136, 1);
+    height: 300px;
+    margin-top: 50px;
+}
+.fluide{
+    margin-left: 50px;
+}
+
+
+
